@@ -1,0 +1,15 @@
+# Identyfikator placeholderow: %<identifier>_players% oraz %<identifier>_playersall%
+# Jesli masz juz inny plugin z %smiglo_...% (np. %smiglo_playtime%),
+# to moze byc konflikt - wtedy zmien na inna nazwe, np. smigloplayers
+identifier: smiglo
+
+# Co ile ticków odpytywac proxy o liczbe graczy (20 ticków = 1 sekunda)
+refresh-ticks: 40
+
+# Serwery (dokladne nazwy z config.yml BungeeCorda), ktore tworza "tryb".
+# %smiglo_players% = suma graczy na tych serwerach.
+# Jesli lista jest pusta, %smiglo_players% = gracze na tym serwerze.
+mode-servers: []
+#mode-servers:
+#  - survival-1
+#  - survival-2

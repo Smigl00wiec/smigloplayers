@@ -1,0 +1,7 @@
+name: SmigloPlayers
+main: pl.smiglo.players.SmigloPlayers
+version: 1.0.0
+api-version: '1.13'
+depend: [PlaceholderAPI]
+author: Smiglo
+description: Placeholdery z liczba graczy na trybie i na calej sieci (BungeeCord).
